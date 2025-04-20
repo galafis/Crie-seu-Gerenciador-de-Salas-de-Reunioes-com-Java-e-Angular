@@ -136,4 +136,4 @@ gerenciador-salas/
 
 ---
 
-Desenvolvido como projeto de estudo e portfólio. Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou entrar em contato!
+Desenvolvido por um futuro cientista de dados, apaixonado por tecnologia,como projeto de estudo e portfólio (Santander Bootcamp Fullstack Developer / DIO). Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou entrar em contato!
