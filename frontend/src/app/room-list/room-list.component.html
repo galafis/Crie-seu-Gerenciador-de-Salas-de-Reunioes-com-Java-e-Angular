@@ -1,0 +1,14 @@
+<div>
+  <form (ngSubmit)="addRoom()">
+    <input [(ngModel)]="newRoom.name" name="name" placeholder="Nome" required>
+    <input [(ngModel)]="newRoom.location" name="location" placeholder="Localização" required>
+    <input type="number" [(ngModel)]="newRoom.capacity" name="capacity" placeholder="Capacidade" required>
+    <button type="submit">Adicionar Sala</button>
+  </form>
+  <ul>
+    <li *ngFor="let room of rooms">
+      {{ room.name }} - {{ room.location }} ({{ room.capacity }})
+      <button (click)="deleteRoom(room.id!)">Remover</button>
+    </li>
+  </ul>
+</div>
