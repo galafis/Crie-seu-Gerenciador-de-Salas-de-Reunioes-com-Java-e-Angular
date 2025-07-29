@@ -137,3 +137,23 @@ gerenciador-salas/
 ---
 
 Desenvolvido por um futuro cientista de dados, apaixonado por tecnologia,como projeto de estudo e portfólio (Santander Bootcamp Fullstack Developer / DIO). Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou entrar em contato!
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
