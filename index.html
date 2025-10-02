@@ -4,51 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Salas de Reuniões</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #0056b3;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .button {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Gerenciador de Salas de Reuniões</h1>
-        <p>Este é um projeto de gerenciamento de salas de reuniões, desenvolvido com <strong>Spring Boot</strong> para o backend e <strong>Angular</strong> para o frontend.</p>
-        <p>Explore o código-fonte e a documentação completa no repositório GitHub.</p>
-        <a href="https://github.com/galafis/Crie-seu-Gerenciador-de-Salas-de-Reunioes-com-Java-e-Angular" class="button">Ver Repositório no GitHub</a>
-    </div>
+        <p>API REST em Spring Boot e SPA em Angular para cadastro e gerenciamento de salas de reunião.</p>
+    </header>
+    <main>
+        <section class="project-overview">
+            <h2>Visão Geral do Projeto</h2>
+            <p>Este projeto oferece uma solução completa para o gerenciamento de salas de reuniões, combinando um robusto backend em Java com Spring Boot e um frontend interativo desenvolvido em Angular.</p>
+            <p>Ideal para empresas que buscam otimizar a reserva e organização de seus espaços de reunião.</p>
+        </section>
+
+        <section class="features">
+            <h2>Funcionalidades Principais</h2>
+            <ul>
+                <li>Cadastro e listagem de salas de reunião.</li>
+                <li>Visualização detalhada de cada sala.</li>
+                <li>API RESTful para integração flexível.</li>
+                <li>Interface de usuário moderna e responsiva com Angular.</li>
+            </ul>
+        </section>
+
+        <section class="technologies">
+            <h2>Tecnologias Utilizadas</h2>
+            <div class="tech-list">
+                <div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Java 11+</li>
+                        <li>Spring Boot 2.x</li>
+                        <li>Spring Data JPA</li>
+                        <li>H2 Database (in-memory)</li>
+                        <li>Lombok</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Angular 10</li>
+                        <li>TypeScript</li>
+                        <li>RxJS</li>
+                        <li>Angular Forms & HttpClient</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="documentation">
+            <h2>Documentação e Código</h2>
+            <p>Para mais detalhes sobre a implementação, configuração e execução do projeto, acesse o repositório completo no GitHub:</p>
+            <a href="https://github.com/galafis/Crie-seu-Gerenciador-de-Salas-de-Reunioes-com-Java-e-Angular" target="_blank" class="button">Ver no GitHub</a>
+            <p>Consulte o <code>README.md</code> para instruções detalhadas sobre como configurar e rodar o backend e o frontend localmente.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gabriel Demetrios Lafis. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
 
