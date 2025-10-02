@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #004a99;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 5px solid #003366;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+header p {
+    max-width: 600px;
+    margin: 0.5rem auto 0;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #004a99;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23004a99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>') no-repeat left center;
+    padding-left: 35px;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.tech-list h3 {
+    color: #003366;
+    font-size: 1.4rem;
+}
+
+.tech-list ul li {
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .tech-list {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
